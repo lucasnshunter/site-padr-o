@@ -1,0 +1,65 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Titulo</th>
+      <th>Autor</th>
+      <th>Image file name</th>
+      <th>Categoria</th>
+      <th>Abstract</th>
+      <th>Paragrafo1</th>
+      <th>Paragrafo2</th>
+      <th>Paragrafo3</th>
+      <th>Paragrafo4</th>
+      <th>Paragrafo5</th>
+      <th>Paragrafo6</th>
+      <th>Paragrafo7</th>
+      <th>Paragrafo8</th>
+      <th>Paragrafo9</th>
+      <th>Paragrafo10</th>
+      <th>Paragrafo11</th>
+      <th>Paragrafo12</th>
+      <th>Paragrafo13</th>
+      <th>Paragrafo14</th>
+      <th>Paragrafo15</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @posts.each do |post| %>
+      <tr>
+        <td><%= post.titulo %></td>
+        <td><%= post.autor %></td>
+        <td><%= post.image_file_name %></td>
+        <td><%= post.categoria %></td>
+        <td><%= post.abstract %></td>
+        <td><%= post.paragrafo1 %></td>
+        <td><%= post.paragrafo2 %></td>
+        <td><%= post.paragrafo3 %></td>
+        <td><%= post.paragrafo4 %></td>
+        <td><%= post.paragrafo5 %></td>
+        <td><%= post.paragrafo6 %></td>
+        <td><%= post.paragrafo7 %></td>
+        <td><%= post.paragrafo8 %></td>
+        <td><%= post.paragrafo9 %></td>
+        <td><%= post.paragrafo10 %></td>
+        <td><%= post.paragrafo11 %></td>
+        <td><%= post.paragrafo12 %></td>
+        <td><%= post.paragrafo13 %></td>
+        <td><%= post.paragrafo14 %></td>
+        <td><%= post.paragrafo15 %></td>
+        <td><%= link_to 'Show', post %></td>
+        <td><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_post_path %>

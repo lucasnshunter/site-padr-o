@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  titulo: MyString
+  autor: MyString
+  image_file_name: MyString
+  categoria: MyString
+  abstract: MyString
+  paragrafo1: MyText
+  paragrafo2: MyText
+  paragrafo3: MyText
+  paragrafo4: MyText
+  paragrafo5: MyText
+  paragrafo6: MyText
+  paragrafo7: MyText
+  paragrafo8: MyText
+  paragrafo9: MyText
+  paragrafo10: MyText
+  paragrafo11: MyText
+  paragrafo12: MyText
+  paragrafo13: MyText
+  paragrafo14: MyText
+  paragrafo15: MyText
+
+two:
+  titulo: MyString
+  autor: MyString
+  image_file_name: MyString
+  categoria: MyString
+  abstract: MyString
+  paragrafo1: MyText
+  paragrafo2: MyText
+  paragrafo3: MyText
+  paragrafo4: MyText
+  paragrafo5: MyText
+  paragrafo6: MyText
+  paragrafo7: MyText
+  paragrafo8: MyText
+  paragrafo9: MyText
+  paragrafo10: MyText
+  paragrafo11: MyText
+  paragrafo12: MyText
+  paragrafo13: MyText
+  paragrafo14: MyText
+  paragrafo15: MyText
